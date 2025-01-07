@@ -4,8 +4,12 @@
       <el-button type="primary" @click="fetchData">{{ t("Configure.Refresh") }}</el-button>
       <el-button type="primary" @click="uploadConfig">{{ t("Configure.Upload") }}</el-button>
     </el-row>
-    <el-input type="textarea" autosize v-model="textarea"
-      placeholder="frpc configrue file, can not be empty..."></el-input>
+    <el-input
+      type="textarea"
+      autosize
+      v-model="textarea"
+      placeholder="frpc configure file, can not be empty..."
+    ></el-input>
   </div>
 </template>
 
